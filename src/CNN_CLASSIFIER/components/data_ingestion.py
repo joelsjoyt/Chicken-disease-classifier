@@ -4,7 +4,7 @@ from pathlib import Path
 import urllib.request as request
 from CNN_CLASSIFIER import logger
 from CNN_CLASSIFIER.utils.common import get_size
-from CNN_CLASSIFIER.config.configuration import DataIngestionConfig
+from CNN_CLASSIFIER.entity.config_entity import DataIngestionConfig
 
 class DataIngestion:
     def __init__(self, config: DataIngestionConfig):
